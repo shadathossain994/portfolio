@@ -1,0 +1,278 @@
+<html><head><base href="https://shadatehossen.dev/"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Shadate Hossen - WordPress Developer Portfolio</title><style>
+    :root {
+        --primary-color: #0073aa;
+        --secondary-color: #23282d;
+        --accent-color: #f56e28;
+        --text-color: #333;
+        --bg-color: #f1f1f1;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg-color);
+    }
+    header {
+        background: var(--primary-color);
+        color: white;
+        text-align: center;
+        padding: 2rem 0;
+        position: relative;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    nav {
+        background: var(--secondary-color);
+        padding: 0.5rem;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        margin: 0 1rem;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+        color: var(--accent-color);
+    }
+    main {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 2rem;
+    }
+    section {
+        background: white;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--accent-color);
+        padding-bottom: 0.5rem;
+    }
+    .project {
+        margin-bottom: 2rem;
+        transition: transform 0.3s ease;
+    }
+    .project:hover {
+        transform: translateY(-5px);
+    }
+    .project h3 {
+        color: var(--secondary-color);
+    }
+    .project img {
+        max-width: 100%;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .skill {
+        background: #e7e7e7;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        transition: background 0.3s ease;
+    }
+    .skill:hover {
+        background: var(--accent-color);
+        color: white;
+    }
+    .live-demo {
+        background: var(--accent-color);
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 4px;
+        display: inline-block;
+        margin-top: 1rem;
+        transition: background 0.3s ease;
+    }
+    .live-demo:hover {
+        background: var(--primary-color);
+    }
+    footer {
+        background: var(--secondary-color);
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2rem;
+        }
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 0.5rem 0;
+        }
+    }
+</style></head><body>
+    <header>
+        <h1>Shadate Hossen</h1>
+        <p>WordPress Developer &amp; Designer</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Shadate Hossen, a passionate WordPress developer with a knack for creating beautiful, functional websites. With years of experience in WordPress development, I specialize in crafting custom themes, plugins, and high-performance websites that drive results for businesses and individuals alike.</p>
+        </section>
+        
+        <section id="projects">
+            <h2>WordPress Projects</h2>
+            <div class="project">
+                <h3>E-commerce Store: GadgetHub</h3>
+                <img src="gadgethub-preview.jpg" alt="Screenshot of GadgetHub WordPress e-commerce website showcasing various tech products" width="600" height="300">
+                <p>Developed a fully-functional e-commerce store using WordPress and WooCommerce. Implemented custom product layouts, optimized checkout process, and integrated payment gateways.</p>
+                <a href="https://gadgethub.shadatehossen.dev" class="live-demo" target="_blank">View Live Demo</a>
+            </div>
+            <div class="project">
+                <h3>Blog: TravelTales</h3>
+                <img src="traveltales-preview.jpg" alt="Screenshot of TravelTales WordPress blog with a world map and featured blog posts" width="600" height="300">
+                <p>Created a custom WordPress theme for a travel blog, featuring a responsive design, custom post types for destinations, and an interactive map of visited locations.</p>
+                <a href="https://traveltales.shadatehossen.dev" class="live-demo" target="_blank">View Live Demo</a>
+            </div>
+            <div class="project">
+                <h3>Business Website: LegalEase</h3>
+                <img src="legalease-preview.jpg" alt="Screenshot of LegalEase WordPress website for a law firm, showing a professional design with lawyer profiles" width="600" height="300">
+                <p>Designed and developed a professional WordPress website for a law firm, including custom post types for attorney profiles, practice areas, and a case results showcase.</p>
+                <a href="https://legalease.shadatehossen.dev" class="live-demo" target="_blank">View Live Demo</a>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">WordPress Development</span>
+                <span class="skill">PHP</span>
+                <span class="skill">MySQL</span>
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">jQuery</span>
+                <span class="skill">WooCommerce</span>
+                <span class="skill">Custom Theme Development</span>
+                <span class="skill">Plugin Development</span>
+                <span class="skill">WordPress SEO</span>
+                <span class="skill">Performance Optimization</span>
+                <span class="skill">Responsive Design</span>
+                <span class="skill">Git</span>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>I'm always excited to take on new WordPress projects and help businesses establish a strong online presence. Let's collaborate!</p>
+            <p>Email: <a href="mailto:shadate.hossen@example.com">shadate.hossen@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/shadate-hossen">linkedin.com/in/shadate-hossen</a></p>
+            <p>GitHub: <a href="https://github.com/shadatehossen">github.com/shadatehossen</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Shadate Hossen. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation for skill tags
+        const skills = document.querySelectorAll('.skill');
+        skills.forEach(skill => {
+            skill.addEventListener('mouseover', () => {
+                skill.style.transform = 'scale(1.1)';
+            });
+            skill.addEventListener('mouseout', () => {
+                skill.style.transform = 'scale(1)';
+            });
+        });
+
+        // Lazy loading for project images
+        if ('IntersectionObserver' in window) {
+            const imgOptions = {
+                threshold: 0,
+                rootMargin: "0px 0px 300px 0px"
+            };
+            const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        preloadImage(entry.target);
+                        imgObserver.unobserve(entry.target);
+                    }
+                });
+            }, imgOptions);
+
+            const imgs = document.querySelectorAll('img');
+            imgs.forEach(img => {
+                imgObserver.observe(img);
+            });
+        }
+
+        function preloadImage(img) {
+            const src = img.getAttribute('src');
+            if (!src) {
+                return;
+            }
+            img.src = src;
+        }
+
+        // Add a simple animation to project cards on scroll
+        const projectCards = document.querySelectorAll('.project');
+        const projectObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        projectCards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            projectObserver.observe(card);
+        });
+    </script>
+</body></html>
